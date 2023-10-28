@@ -1,9 +1,9 @@
 import express from "express"
 import bodyParser from "body-parser"
 import cors from "cors"
-import dotenv from "dotenv"
+// import dotenv from "dotenv"
 import path from "path"
-dotenv.config()
+// dotenv.config()
 
 import OpenAI from "openai"
 const openai = new OpenAI()
