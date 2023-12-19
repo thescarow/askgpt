@@ -1,5 +1,6 @@
 {
   "name": "chatgpt-server",
+  "temp": "npm install && npm install --prefix client && npm run build --prefix client",
   "type": "module",
   "version": "1.0.0",
   "description": "server for chaptgpt",
@@ -7,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "npm install && npm install --prefix client && npm run build --prefix client",
+    "build": "npm install",
     "start": "node index.js"
   },
   "dependencies": {
