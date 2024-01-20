@@ -1,7 +1,7 @@
 {
   "name": "chatgpt-server",
   "type": "module",
-  "code": "npm install && npm install --prefix client && npm run build --prefix client",
+  "code": "npm install && npm install --prefix client && npm run build --prefix clien",
   "version": "1.0.0",
   "description": "server for chaptgpt",
   "author": "Rithik Pathak ",
